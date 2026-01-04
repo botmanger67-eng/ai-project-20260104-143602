@@ -1,0 +1,51 @@
+/* Component Styles */
+
+/* General Button Styles */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary Button Style */
+button#start-vps {
+    background-color: #5cb85c;
+    color: white;
+}
+
+button#start-vps:hover {
+    background-color: #4cae4c;
+}
+
+/* Secondary Button Style */
+button#stop-vps {
+    background-color: #d9534f;
+    color: white;
+}
+
+button#stop-vps:hover {
+    background-color: #d43f3a;
+}
+
+/* Info Button Style */
+button#restart-vps {
+    background-color: #5bc0de;
+    color: white;
+}
+
+button#restart-vps:hover {
+    background-color: #46b8da;
+}
+
+/* VPS Status Display */
+#vps-status {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
