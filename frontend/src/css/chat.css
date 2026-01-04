@@ -1,0 +1,42 @@
+/* Chat Styles */
+.chat-section {
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* Adjust as needed */
+}
+
+.chat-header {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto; /* Enable scrolling for chat messages */
+}
+
+.chat-input-area {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#chat-send-button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
